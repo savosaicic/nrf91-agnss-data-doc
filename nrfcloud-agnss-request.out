@@ -1,0 +1,447 @@
+=== A-GNSS DUMP ===
+Schema version: 1
+Buffer length:  3179 bytes
+
+--- GPS System Clock (count: 1) ---
+  date_day:     16867 (days since GPS epoch Jan 6 1980)
+  time_full_s:  39087 s
+  time_frac_ms: 0 ms
+  sv_mask:      0x00000000
+--- UTC Parameters (count: 1) ---
+  a1:          -15 (scale 2^-50)
+  a0:          -4 (scale 2^-30)
+  tot:         144 (scale 2^12)
+  wn_t:        105
+  delta_tls:   18 sec
+  wn_lsf:      137
+  dn:          6
+  delta_tlsf:  18 sec
+--- GPS Ephemerides (count: 32) ---
+  [SV   1] health:0 iodc:965 toc:24300
+           af2:0 af1:-58 af0:684676 tgd:-20
+           ura:0 fit_int:0 toe:24300
+           w:71237530 delta_n:12227 m0:-1103587716
+           omega_dot:-22685 e:13842827 idot:25
+           sqrt_a:2701983685 i0:654982878 omega0:2057659824
+           crs:1770 cis:-23 cus:2635
+           crc:9130 cic:-56 cuc:1565
+  [SV   2] health:0 iodc:59 toc:24300
+           af2:0 af1:70 af0:120711 tgd:-38
+           ura:0 fit_int:0 toe:24300
+           w:-551165672 delta_n:12238 m0:-93297419
+           omega_dot:-23272 e:145064078 idot:-232
+           sqrt_a:2701964559 i0:658546903 omega0:1946630374
+           crs:1859 cis:-204 cus:2998
+           crc:8912 cic:-9 cuc:1597
+  [SV   3] health:0 iodc:83 toc:24300
+           af2:0 af1:-112 af0:1164773 tgd:3
+           ura:0 fit_int:0 toe:24300
+           w:822886673 delta_n:10197 m0:1745772734
+           omega_dot:-21677 e:56063806 idot:312
+           sqrt_a:2701983281 i0:679077618 omega0:-1562578935
+           crs:-1297 cis:-7 cus:2151
+           crc:10208 cic:45 cuc:-1128
+  [SV   4] health:0 iodc:748 toc:24300
+           af2:0 af1:16 af0:104011 tgd:-10
+           ura:0 fit_int:0 toe:24300
+           w:-1964818947 delta_n:11674 m0:-516895783
+           omega_dot:-22018 e:32087456 idot:710
+           sqrt_a:2702040097 i0:663407262 omega0:-830753351
+           crs:-2677 cis:12 cus:3925
+           crc:7691 cic:33 cuc:-2296
+  [SV   5] health:0 iodc:64 toc:24300
+           af2:0 af1:-5 af0:-494378 tgd:-23
+           ura:0 fit_int:0 toe:24300
+           w:969210890 delta_n:11072 m0:-60009510
+           omega_dot:-22469 e:46541844 idot:350
+           sqrt_a:2702029542 i0:669893947 omega0:-1603500835
+           crs:-730 cis:13 cus:2307
+           crc:9815 cic:-56 cuc:-597
+  [SV   6] health:0 iodc:78 toc:24300
+           af2:0 af1:-3 af0:-1315615 tgd:8
+           ura:0 fit_int:0 toe:24300
+           w:-380878640 delta_n:10654 m0:-1652894515
+           omega_dot:-21863 e:33061088 idot:-80
+           sqrt_a:2701992843 i0:674714648 omega0:2024037223
+           crs:1810 cis:33 cus:3189
+           crc:8987 cic:-26 cuc:1576
+  [SV   7] health:0 iodc:105 toc:24300
+           af2:0 af1:-42 af0:-343017 tgd:-23
+           ura:0 fit_int:0 toe:24300
+           w:-1359819859 delta_n:13299 m0:2056797399
+           omega_dot:-21370 e:176401178 idot:670
+           sqrt_a:2701981196 i0:650259052 omega0:-141283282
+           crs:-882 cis:-165 cus:4605
+           crc:6644 cic:98 cuc:-843
+  [SV   8] health:0 iodc:102 toc:24300
+           af2:0 af1:-51 af0:1029741 tgd:10
+           ura:0 fit_int:0 toe:24300
+           w:359645235 delta_n:13794 m0:-307520905
+           omega_dot:-23311 e:99510298 idot:-1187
+           sqrt_a:2702019063 i0:644700833 omega0:1257994157
+           crs:1792 cis:75 cus:3971
+           crc:7244 cic:54 cuc:1539
+  [SV   9] health:0 iodc:84 toc:24300
+           af2:0 af1:-16 af0:1646806 tgd:1
+           ura:0 fit_int:0 toe:24300
+           w:1413578333 delta_n:12145 m0:95559752
+           omega_dot:-22416 e:28710260 idot:605
+           sqrt_a:2702062792 i0:659414290 omega0:-874726422
+           crs:-2616 cis:1 cus:3771
+           crc:7784 cic:-7 cuc:-2346
+  [SV  10] health:0 iodc:101 toc:24300
+           af2:0 af1:-3 af0:-1267462 tgd:5
+           ura:0 fit_int:0 toe:24300
+           w:-1542077114 delta_n:10589 m0:1068834801
+           omega_dot:-22237 e:93961660 idot:74
+           sqrt_a:2701996758 i0:678758444 omega0:-1564294453
+           crs:-1298 cis:8 cus:2389
+           crc:9962 cic:-142 cuc:-1152
+  [SV  11] health:0 iodc:55 toc:24300
+           af2:0 af1:114 af0:-880538 tgd:-19
+           ura:0 fit_int:0 toe:24300
+           w:-1576099624 delta_n:12014 m0:-900033617
+           omega_dot:-22512 e:18889292 idot:-207
+           sqrt_a:2701960281 i0:658901938 omega0:2036733979
+           crs:1662 cis:5 cus:2957
+           crc:8886 cic:62 cuc:1427
+  [SV  12] health:0 iodc:102 toc:24300
+           af2:0 af1:-1 af0:-1305358 tgd:-27
+           ura:0 fit_int:0 toe:24300
+           w:1068087076 delta_n:13208 m0:1599513649
+           omega_dot:-22087 e:77377367 idot:-735
+           sqrt_a:2702057730 i0:655613570 omega0:622648690
+           crs:695 cis:-68 cus:3755
+           crc:7585 cic:24 cuc:544
+  [SV  13] health:0 iodc:21 toc:24300
+           af2:0 af1:-12 af0:1468411 tgd:-25
+           ura:0 fit_int:0 toe:24300
+           w:680294558 delta_n:11700 m0:-473863502
+           omega_dot:-22246 e:85988034 idot:520
+           sqrt_a:2702009740 i0:667264824 omega0:-754913016
+           crs:-2155 cis:83 cus:4100
+           crc:7785 cic:9 cuc:-1793
+  [SV  14] health:0 iodc:216 toc:24300
+           af2:0 af1:15 af0:1586656 tgd:-18
+           ura:0 fit_int:0 toe:24300
+           w:-1877247434 delta_n:14573 m0:1495923328
+           omega_dot:-23012 e:58093044 idot:-381
+           sqrt_a:2701997518 i0:644245887 omega0:585191823
+           crs:710 cis:15 cus:3881
+           crc:7460 cic:-116 cuc:627
+  [SV  15] health:0 iodc:85 toc:24300
+           af2:0 af1:30 af0:845017 tgd:-24
+           ura:0 fit_int:0 toe:24300
+           w:1027635870 delta_n:13625 m0:-989168430
+           omega_dot:-23151 e:142660627 idot:420
+           sqrt_a:2702024153 i0:644294208 omega0:-973380234
+           crs:-2235 cis:226 cus:3527
+           crc:7704 cic:6 cuc:-1721
+  [SV  16] health:0 iodc:87 toc:24300
+           af2:0 af1:64 af0:481787 tgd:-23
+           ura:0 fit_int:0 toe:24300
+           w:635957306 delta_n:13723 m0:396776363
+           omega_dot:-23125 e:129233524 idot:-923
+           sqrt_a:2701995254 i0:655010161 omega0:634242647
+           crs:784 cis:68 cus:3969
+           crc:7580 cic:-63 cuc:851
+  [SV  17] health:0 iodc:52 toc:24300
+           af2:0 af1:-88 af0:-183568 tgd:-24
+           ura:0 fit_int:0 toe:24300
+           w:-765472994 delta_n:12761 m0:-351475479
+           omega_dot:-22974 e:108690430 idot:-772
+           sqrt_a:2701970310 i0:655434013 omega0:1329688985
+           crs:1598 cis:-18 cus:4323
+           crc:7259 cic:-111 cuc:1394
+  [SV  18] health:0 iodc:531 toc:24300
+           af2:0 af1:84 af0:-867386 tgd:-18
+           ura:0 fit_int:0 toe:24300
+           w:-1959657907 delta_n:11404 m0:-1707721372
+           omega_dot:-22020 e:49462323 idot:69
+           sqrt_a:2701989545 i0:664430084 omega0:2020503879
+           crs:1581 cis:-11 cus:2791
+           crc:9157 cic:-4 cuc:1363
+  [SV  19] health:0 iodc:89 toc:24300
+           af2:0 af1:12 af0:1489061 tgd:-33
+           ura:0 fit_int:0 toe:24300
+           w:2006651572 delta_n:12712 m0:882382544
+           omega_dot:-22388 e:95876658 idot:-1358
+           sqrt_a:2702035719 i0:654879917 omega0:1359695058
+           crs:1673 cis:112 cus:3925
+           crc:7501 cic:43 cuc:1535
+  [SV  20] health:0 iodc:297 toc:24300
+           af2:0 af1:202 af0:101742 tgd:-19
+           ura:0 fit_int:0 toe:24300
+           w:-1365821355 delta_n:12368 m0:1587496389
+           omega_dot:-22290 e:19547328 idot:459
+           sqrt_a:2702054634 i0:656272478 omega0:-870920629
+           crs:-2427 cis:-31 cus:3703
+           crc:7900 cic:19 cuc:-2119
+  [SV  21] health:0 iodc:730 toc:24300
+           af2:0 af1:30 af0:875812 tgd:-21
+           ura:1 fit_int:0 toe:24300
+           w:-208068170 delta_n:12240 m0:1385403739
+           omega_dot:-22786 e:6511248 idot:284
+           sqrt_a:2702060870 i0:658166882 omega0:-1558506116
+           crs:-963 cis:-18 cus:2034
+           crc:9832 cic:-1 cuc:-834
+  [SV  22] health:0 iodc:98 toc:24300
+           af2:0 af1:47 af0:-75308 tgd:-24
+           ura:0 fit_int:0 toe:24300
+           w:-678771471 delta_n:13893 m0:91021772
+           omega_dot:-23294 e:103714620 idot:-450
+           sqrt_a:2701981326 i0:654629707 omega0:636534061
+           crs:631 cis:-68 cus:3885
+           crc:7760 cic:-35 cuc:544
+  [SV  23] health:0 iodc:769 toc:24355
+           af2:0 af1:41 af0:1338050 tgd:-19
+           ura:0 fit_int:0 toe:24355
+           w:-1872530785 delta_n:10613 m0:1895319128
+           omega_dot:-21797 e:51957303 idot:356
+           sqrt_a:2702025289 i0:675343379 omega0:-1586262480
+           crs:-1061 cis:-49 cus:2417
+           crc:9773 cic:-42 cuc:-867
+  [SV  24] health:0 iodc:46 toc:24300
+           af2:0 af1:147 af0:-183333 tgd:5
+           ura:0 fit_int:0 toe:24300
+           w:777031774 delta_n:14415 m0:-1567158108
+           omega_dot:-22247 e:153882234 idot:1211
+           sqrt_a:2701995704 i0:639301160 omega0:-215545667
+           crs:-584 cis:-13 cus:4372
+           crc:6514 cic:129 cuc:-582
+  [SV  25] health:0 iodc:104 toc:24300
+           af2:0 af1:-23 af0:940206 tgd:12
+           ura:0 fit_int:0 toe:24300
+           w:791679167 delta_n:13882 m0:1510769420
+           omega_dot:-22250 e:111105995 idot:-470
+           sqrt_a:2702032290 i0:647694322 omega0:558435641
+           crs:597 cis:-121 cus:3851
+           crc:7388 cic:-3 cuc:365
+  [SV  26] health:0 iodc:0 toc:24299
+           af2:0 af1:-47 af0:-728644 tgd:14
+           ura:0 fit_int:0 toe:24299
+           w:485850263 delta_n:15721 m0:948132912
+           omega_dot:-23817 e:94633871 idot:-567
+           sqrt_a:2702032852 i0:634576006 omega0:507365067
+           crs:580 cis:96 cus:4000
+           crc:7102 cic:-77 cuc:606
+  [SV  27] health:0 iodc:50 toc:24300
+           af2:0 af1:-107 af0:-142148 tgd:5
+           ura:1 fit_int:0 toe:24300
+           w:603838642 delta_n:13341 m0:-237641180
+           omega_dot:-23324 e:123404447 idot:-1098
+           sqrt_a:2702007090 i0:650924681 omega0:1279952566
+           crs:1942 cis:93 cus:3962
+           crc:7403 cic:-12 cuc:1739
+  [SV  28] health:0 iodc:580 toc:24300
+           af2:0 af1:68 af0:-1244704 tgd:-21
+           ura:0 fit_int:0 toe:24300
+           w:-29523128 delta_n:13124 m0:-1987851911
+           omega_dot:-22028 e:3634828 idot:751
+           sqrt_a:2702073393 i0:657730132 omega0:-158802203
+           crs:-643 cis:9 cus:4546
+           crc:6993 cic:-18 cuc:-515
+  [SV  29] health:0 iodc:65 toc:24300
+           af2:0 af1:61 af0:-774061 tgd:-21
+           ura:0 fit_int:0 toe:24300
+           w:1875139116 delta_n:12261 m0:-334348911
+           omega_dot:-22204 e:29103385 idot:-955
+           sqrt_a:2702052770 i0:657250956 omega0:1341142647
+           crs:1617 cis:-49 cus:4067
+           crc:7519 cic:16 cuc:1365
+  [SV  30] health:0 iodc:1 toc:24299
+           af2:0 af1:114 af0:321650 tgd:9
+           ura:0 fit_int:0 toe:24299
+           w:-1581274214 delta_n:14438 m0:1932047782
+           omega_dot:-22467 e:69529344 idot:783
+           sqrt_a:2702051773 i0:640180696 omega0:-147529424
+           crs:-686 cis:-89 cus:4653
+           crc:6488 cic:5 cuc:-608
+  [SV  31] health:0 iodc:114 toc:24300
+           af2:0 af1:20 af0:-347984 tgd:-29
+           ura:0 fit_int:0 toe:24300
+           w:640738885 delta_n:13536 m0:1309377921
+           omega_dot:-22225 e:93191784 idot:758
+           sqrt_a:2701955115 i0:652832561 omega0:-124705335
+           crs:-692 cis:-88 cus:4560
+           crc:6900 cic:-122 cuc:-641
+  [SV  32] health:0 iodc:7 toc:24300
+           af2:0 af1:164 af0:-112688 tgd:2
+           ura:0 fit_int:0 toe:24300
+           w:-1363754440 delta_n:12096 m0:152346973
+           omega_dot:-22483 e:80507571 idot:533
+           sqrt_a:2702043367 i0:661494896 omega0:-863078121
+           crs:-2323 cis:51 cus:4284
+           crc:7405 cic:-94 cuc:-2109
+--- GPS Almanac (count: 32) ---
+  [SV   1] wn:105 toa:123 ioda:0 sv_health:0
+           e:3387 delta_i:2622 omega_dot:-691
+           sqrt_a:10554524 omega0:8035260 w:282784 m0:6923297
+           af0:334 af1:-2
+  [SV   2] wn:105 toa:123 ioda:0 sv_health:0
+           e:35412 delta_i:3490 omega_dot:-678
+           sqrt_a:10554458 omega0:7601583 w:-2150485 m0:-5904604
+           af0:60 af1:2
+  [SV   3] wn:105 toa:123 ioda:0 sv_health:0
+           e:13700 delta_i:8506 omega_dot:-684
+           sqrt_a:10554525 omega0:-6106275 w:3214015 m0:1281298
+           af0:567 af1:-4
+  [SV   4] wn:105 toa:123 ioda:0 sv_health:0
+           e:7834 delta_i:4675 omega_dot:-683
+           sqrt_a:10554743 omega0:-3247578 w:-7675257 m0:-7560260
+           af0:51 af1:1
+  [SV   5] wn:105 toa:123 ioda:0 sv_health:0
+           e:11366 delta_i:6264 omega_dot:-696
+           sqrt_a:10554702 omega0:-6266173 w:3786330 m0:-5775531
+           af0:-241 af1:0
+  [SV   6] wn:105 toa:123 ioda:0 sv_health:0
+           e:8067 delta_i:7439 omega_dot:-665
+           sqrt_a:10554577 omega0:7904025 w:-1485902 m0:4779483
+           af0:-642 af1:0
+  [SV   7] wn:105 toa:123 ioda:0 sv_health:0
+           e:43096 delta_i:1473 omega_dot:-679
+           sqrt_a:10554510 omega0:-554326 w:-5310544 m0:2494766
+           af0:-168 af1:-1
+  [SV   8] wn:105 toa:123 ioda:0 sv_health:0
+           e:24302 delta_i:103 omega_dot:-702
+           sqrt_a:10554644 omega0:4911505 w:1406963 m0:-6743357
+           af0:502 af1:-2
+  [SV   9] wn:105 toa:123 ioda:0 sv_health:0
+           e:7013 delta_i:3700 omega_dot:-690
+           sqrt_a:10554828 omega0:-3419378 w:5520529 m0:-5167855
+           af0:804 af1:-1
+  [SV  10] wn:105 toa:123 ioda:0 sv_health:0
+           e:22932 delta_i:8429 omega_dot:-683
+           sqrt_a:10554583 omega0:-6112975 w:-6023450 m0:-1364405
+           af0:-619 af1:0
+  [SV  11] wn:105 toa:123 ioda:0 sv_health:0
+           e:4619 delta_i:3578 omega_dot:-684
+           sqrt_a:10554438 omega0:7953539 w:-6159478 m0:7726872
+           af0:-428 af1:4
+  [SV  12] wn:105 toa:123 ioda:0 sv_health:0
+           e:18892 delta_i:2776 omega_dot:-692
+           sqrt_a:10554795 omega0:2429723 w:4174042 m0:704374
+           af0:-637 af1:0
+  [SV  13] wn:105 toa:123 ioda:0 sv_health:0
+           e:21006 delta_i:5618 omega_dot:-675
+           sqrt_a:10554631 omega0:-2951300 w:2658564 m0:-7392094
+           af0:717 af1:0
+  [SV  14] wn:105 toa:123 ioda:0 sv_health:0
+           e:14203 delta_i:2 omega_dot:-706
+           sqrt_a:10554555 omega0:2283351 w:-7332682 m0:304281
+           af0:775 af1:0
+  [SV  15] wn:105 toa:123 ioda:0 sv_health:0
+           e:34843 delta_i:10 omega_dot:-714
+           sqrt_a:10554670 omega0:-3804856 w:4015394 m0:7371722
+           af0:413 af1:1
+  [SV  16] wn:105 toa:123 ioda:0 sv_health:0
+           e:31547 delta_i:2628 omega_dot:-693
+           sqrt_a:10554559 omega0:2475002 w:2485436 m0:-3990228
+           af0:236 af1:2
+  [SV  17] wn:105 toa:123 ioda:0 sv_health:0
+           e:26526 delta_i:2722 omega_dot:-685
+           sqrt_a:10554463 omega0:5191634 w:-2989459 m0:-6911336
+           af0:-91 af1:-3
+  [SV  18] wn:105 toa:123 ioda:0 sv_health:0
+           e:12090 delta_i:4927 omega_dot:-678
+           sqrt_a:10554558 omega0:7890178 w:-7655762 m0:4568313
+           af0:-422 af1:3
+  [SV  19] wn:105 toa:123 ioda:0 sv_health:0
+           e:23419 delta_i:2587 omega_dot:-685
+           sqrt_a:10554719 omega0:5308845 w:7840334 m0:-2096015
+           af0:727 af1:0
+  [SV  20] wn:105 toa:123 ioda:0 sv_health:0
+           e:4765 delta_i:2934 omega_dot:-695
+           sqrt_a:10554793 omega0:-3404530 w:-5330718 m0:654676
+           af0:52 af1:6
+  [SV  21] wn:105 toa:123 ioda:0 sv_health:0
+           e:1599 delta_i:3400 omega_dot:-712
+           sqrt_a:10554816 omega0:-6090476 w:-802240 m0:-141006
+           af0:428 af1:1
+  [SV  22] wn:105 toa:123 ioda:0 sv_health:0
+           e:25312 delta_i:2537 omega_dot:-693
+           sqrt_a:10554500 omega0:2483960 w:-2651712 m0:-5182342
+           af0:-36 af1:2
+  [SV  23] wn:105 toa:123 ioda:0 sv_health:0
+           e:12684 delta_i:7595 omega_dot:-687
+           sqrt_a:10554695 omega0:-6198784 w:-7314806 m0:1520424
+           af0:654 af1:1
+  [SV  24] wn:105 toa:123 ioda:0 sv_health:0
+           e:37574 delta_i:-1201 omega_dot:-697
+           sqrt_a:10554562 omega0:-844477 w:3035410 m0:5116352
+           af0:-88 af1:5
+  [SV  25] wn:105 toa:123 ioda:0 sv_health:0
+           e:27123 delta_i:845 omega_dot:-701
+           sqrt_a:10554693 omega0:2178855 w:3093487 m0:359853
+           af0:459 af1:-1
+  [SV  26] wn:105 toa:123 ioda:0 sv_health:0
+           e:23097 delta_i:-2356 omega_dot:-718
+           sqrt_a:10554691 omega0:1979287 w:1898591 m0:-1831445
+           af0:-356 af1:-1
+  [SV  27] wn:105 toa:123 ioda:0 sv_health:0
+           e:30138 delta_i:1622 omega_dot:-694
+           sqrt_a:10554600 omega0:4997315 w:2360277 m0:-6469259
+           af0:-71 af1:-3
+  [SV  28] wn:105 toa:123 ioda:0 sv_health:0
+           e:890 delta_i:3297 omega_dot:-670
+           sqrt_a:10554887 omega0:-622722 w:-170955 m0:3524636
+           af0:-607 af1:2
+  [SV  29] wn:105 toa:123 ioda:0 sv_health:0
+           e:7113 delta_i:3166 omega_dot:-682
+           sqrt_a:10554784 omega0:5236388 w:7325440 m0:-6848526
+           af0:-377 af1:2
+  [SV  30] wn:105 toa:123 ioda:0 sv_health:0
+           e:16993 delta_i:-985 omega_dot:-693
+           sqrt_a:10554777 omega0:-578776 w:-6173814 m0:2008507
+           af0:159 af1:4
+  [SV  31] wn:105 toa:123 ioda:0 sv_health:0
+           e:22741 delta_i:2103 omega_dot:-677
+           sqrt_a:10554418 omega0:-489556 w:2502925 m0:-422465
+           af0:-170 af1:1
+  [SV  32] wn:105 toa:123 ioda:0 sv_health:0
+           e:19658 delta_i:4209 omega_dot:-687
+           sqrt_a:10554758 omega0:-3373865 w:-5325758 m0:-4947807
+           af0:-53 af1:5
+--- Klobuchar Ionospheric Correction (count: 1) ---
+  alpha: 22 0 -2 1
+  beta:  60 -1 -4 1
+--- NeQuick Ionospheric Correction (count: 1) ---
+  ai0:500 ai1:65 ai2:49
+  storm_cond:0x00 storm_valid:0x1f
+--- GPS TOW Elements (count: 32) ---
+  [SV   1] tlm:0x0169 flags:0x01
+  [SV   2] tlm:0x0169 flags:0x01
+  [SV   3] tlm:0x0169 flags:0x01
+  [SV   4] tlm:0x0169 flags:0x01
+  [SV   5] tlm:0x0169 flags:0x01
+  [SV   6] tlm:0x0169 flags:0x01
+  [SV   7] tlm:0x0169 flags:0x01
+  [SV   8] tlm:0x0169 flags:0x01
+  [SV   9] tlm:0x0169 flags:0x01
+  [SV  10] tlm:0x0169 flags:0x01
+  [SV  11] tlm:0x0169 flags:0x01
+  [SV  12] tlm:0x0169 flags:0x01
+  [SV  13] tlm:0x0169 flags:0x01
+  [SV  14] tlm:0x0169 flags:0x01
+  [SV  15] tlm:0x0169 flags:0x01
+  [SV  16] tlm:0x0169 flags:0x01
+  [SV  17] tlm:0x0169 flags:0x01
+  [SV  18] tlm:0x0169 flags:0x01
+  [SV  19] tlm:0x0169 flags:0x01
+  [SV  20] tlm:0x0169 flags:0x01
+  [SV  21] tlm:0x0169 flags:0x01
+  [SV  22] tlm:0x0169 flags:0x01
+  [SV  23] tlm:0x0169 flags:0x01
+  [SV  24] tlm:0x0169 flags:0x01
+  [SV  25] tlm:0x0169 flags:0x01
+  [SV  26] tlm:0x0169 flags:0x01
+  [SV  27] tlm:0x0169 flags:0x01
+  [SV  28] tlm:0x0169 flags:0x01
+  [SV  29] tlm:0x0169 flags:0x01
+  [SV  30] tlm:0x0169 flags:0x01
+  [SV  31] tlm:0x0169 flags:0x01
+  [SV  32] tlm:0x0169 flags:0x01
+--- GPS Integrity (count: 1) ---
+  integrity_mask: 0x00000000
+  (all satellites healthy)
+=== END OF DUMP ===

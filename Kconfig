@@ -1,0 +1,38 @@
+menu "nrf91_gnss"
+
+config GNSS_COLD_START
+	bool "Force GNSS cold start by deleting all stored data"
+	default n
+	help
+	  Deletes all stored GNSS data (ephemerides, almanacs, last good fix,
+	  etc.) before starting. Useful for TTFF benchmarking.
+
+config GNSS_SINGLE_FIX
+	bool "Enable single fix navigation mode"
+	default n
+	help
+	  When enabled, GNSS is configured for a single fix (interval set to 0).
+	  GNSS receiver stops once a valid PVT estimate is produced, or when the fix
+	  timeout expires.
+
+config GNSS_PERIODIC_INTERVAL
+	int "Fix interval for periodic GPS fixes"
+	range 10 65535
+	default 120
+	depends on !GNSS_SINGLE_FIX
+	help
+	  Fix interval (in seconds) for periodic fixes.
+
+config GNSS_PERIODIC_TIMEOUT
+	int "Fix timeout for periodic GPS fixes"
+	range 0 65535
+	default 480
+	help
+	  Fix timeout (in seconds). Set to 0 to allow GNSS to run indefinitely
+	  until a valid PVT estimate is produced.
+
+endmenu
+
+menu "Zephyr Kernel"
+source "Kconfig.zephyr"
+endmenu
